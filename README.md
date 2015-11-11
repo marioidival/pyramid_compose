@@ -2,8 +2,8 @@
 
 Microservices architecture composed of Docker + Pyramid + Caddy.
 
-- Pyramid as backend (service)
-- Caddy to use with frontend what you want (Angular.js, Ember.js, React)
+- [Pyramid](http://docs.pylonsproject.org/en/latest/docs/pyramid.html) as backend (service)
+- [Caddy](http://caddyserver.com/docs/caddyfile) to use with frontend what you want (Angular.js, Ember.js, React)
 
 
 ### Install
