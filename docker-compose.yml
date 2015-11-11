@@ -1,0 +1,15 @@
+backend:
+  build: ./backend/
+  volumes:
+      - ./backend/:/code
+  command: /bin/bash cmd.sh
+  ports:
+    - 172.17.42.1:7000:6543
+    - 3333:6543 # If use want use Pyramid only as backend, remove this line.
+
+frontend:
+  build: ./frontend/
+  volumes:
+    - ./frontend/:/site/frontend/
+  ports:
+    - 3334:2015
