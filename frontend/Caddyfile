@@ -1,0 +1,8 @@
+0.0.0.0:2015
+root /site/frontend/templates
+gzip
+ext .html
+header /api Access-Control-Allow-Origin *
+proxy  /api http://172.17.42.1:7000/ {
+    without /api
+}

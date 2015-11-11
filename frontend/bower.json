@@ -1,0 +1,10 @@
+{
+  "name": "name-of-project",
+  "version": "0.0.1",
+  "authors": [
+      "Author name"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  }
+}
