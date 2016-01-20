@@ -1,6 +1,6 @@
 FROM golang:1.5-wheezy
 
-RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
+RUN curl -sL https://deb.nodesource.com/setup_4.2.4 | bash -
 RUN apt-get --yes --quiet install --no-install-recommends\
 	nodejs \
  	npm \
